@@ -1,6 +1,8 @@
 #!/bin/bash
 #
 # This is generateHtmlIndex.sh
+# https://github.com/puglieseweb/bash_scripting/blob/master/website_index_generator/generateHtmlIndex.sh
+#
 # This script should be placed into a root folder of a web site.
 # The script generates an index page (\"$HTML_FILE\") taking into
 # account all the *.html files located into the subfolders of the
@@ -65,7 +67,7 @@ printHeader(){
         echo -e '\t <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">'
         echo '</head>'
         echo '<body>'
-        echo -e "\t<h1>Auto generated HTML index page/h1>"
+        echo -e "\t<h1>Index page</h1>"
 }
 
 printFooter(){
